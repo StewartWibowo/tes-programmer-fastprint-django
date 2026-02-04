@@ -21,6 +21,9 @@ Cara Instalasi Lokal
 4. Tarik data dari API: `python manage.py tarik_data`.
 5. Jalankan server: `python manage.py runserver`.
 
+VIDEO CARA PENGGUNAAN LIHAT DIBAWAH INI
+https://drive.google.com/file/d/1HOGprbwGLO0LwHvpgQZU1atvE_MRPhhb/view?usp=sharing
+
 Halaman Produk Jual
 <img width="1707" height="709" alt="Halaman Tambah Produk" src="https://github.com/user-attachments/assets/e2b8f4d3-0ab3-44d3-8f23-aa2ab16944c4" />
 
