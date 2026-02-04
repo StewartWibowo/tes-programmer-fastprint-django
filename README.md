@@ -42,7 +42,7 @@ Halaman Notifikasi Berhasil Dihapus
 Halaman Notifikasi Konfirmasi Penghapusan
 <img width="1688" height="961" alt="Halaman Notifikasi Konfirmasi Penghapusan" src="https://github.com/user-attachments/assets/ebb68fd0-f852-4e3a-997f-bad833f9e536" />
 
-DOKUMENTASE
+DOKUMENTASI DATABASE
 <img width="1077" height="692" alt="Halaman Database Kategori Produk" src="https://github.com/user-attachments/assets/8fb7dfda-63f3-476b-ad45-ab5c282eec4c" />
 <img width="1116" height="524" alt="Halaman Database Status Produk" src="https://github.com/user-attachments/assets/bd01a9b1-77ca-4a40-aab8-47146bb17cf5" />
 <img width="1221" height="908" alt="Halaman Database Produk" src="https://github.com/user-attachments/assets/5e165e16-21be-4ea7-ace4-5f70f6edcafb" />
