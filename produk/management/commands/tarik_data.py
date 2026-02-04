@@ -1,5 +1,6 @@
 import requests
 import hashlib
+import pytz
 from datetime import datetime
 from django.core.management.base import BaseCommand
 from produk.models import Produk, Kategori, Status
@@ -8,17 +9,19 @@ class Command(BaseCommand):
     help = 'Mengambil data dari API Fastprint dan menyimpannya ke database'
 
     def handle(self, *args, **kwargs):
-        now = datetime.now()
-        tgl = now.strftime("%d")
-        bln = now.strftime("%m")
-        thn = now.strftime("%y")
+        timezone = pytz.timezone('Asia/Jakarta')
+        now = datetime.now(timezone)
+        tgl = now.strftime("%d") 
+        bln = now.strftime("%m") 
+        thn = now.strftime("%y") 
+        jam = now.strftime("%H")
         
         # Pembuatan password & username (sesuai tanggal server)
         raw_password = f"bisacoding-{tgl}-{bln}-{thn}"
         password_md5 = hashlib.md5(raw_password.encode()).hexdigest()
         
         # Username mengikuti tanggal: tesprogrammer + tgl + bln + thn + kode
-        username = "tesprogrammer020226C14".strip()
+        username = f"tesprogrammer{tgl}{bln}{thn}C{jam}".strip()
 
         url = "https://recruitment.fastprint.co.id/tes/api_tes_programmer"
         
