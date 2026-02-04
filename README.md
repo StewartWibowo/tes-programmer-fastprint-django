@@ -33,7 +33,7 @@ Halaman Edit Produk
 Halaman Notifikasi Berhasil Ditambahkan
 <img width="1709" height="964" alt="Halaman Notifikasi Berhasil Ditambahkan" src="https://github.com/user-attachments/assets/8f8e3131-268b-417b-878e-8dedc437e3f7" />
 
-Halaman Notifikasi Berhasil Ditambahkan
+Halaman Notifikasi Diupdate
 <img width="1729" height="976" alt="Halaman Notifikasi Berhasil Diupdate" src="https://github.com/user-attachments/assets/ecbabb09-998f-4dc0-8f91-4ba0be10861a" />
 
 Halaman Notifikasi Berhasil Dihapus
