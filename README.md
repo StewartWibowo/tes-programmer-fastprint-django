@@ -10,7 +10,7 @@ Fitur Utama
 Teknologi yang digunakan :
 1. Framework : Django 4.2
 2. Database : MySQL / MariaDB (via XAMPP)
-3. Library Python : `requests`, `mysqlclient`
+3. Library Python : `requests`, `mysqlclient`, 'pytz'
 4. Styling : Bootstrap 5
 
 
